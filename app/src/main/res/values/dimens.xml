@@ -1,0 +1,5 @@
+<resources>
+  <dimen name="large_space">60dip</dimen>
+  <dimen name="medium_space">30dip</dimen>
+  <dimen name="small_space">20dip</dimen>
+</resources>
