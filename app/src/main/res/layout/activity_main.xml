@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="com.obelisktechnologies.o_be.MainActivity">
+
+
+    <ImageView
+
+        android:id="@+id/logoImg"
+        android:src="@drawable/obeicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+
+        android:id="@+id/userName"
+        android:hint="@string/username"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/logoImg"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+
+        android:id="@+id/password"
+        android:hint="@string/password"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/userName"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_width="220sp"
+        android:layout_height="40sp" />
+
+    <ImageButton
+
+        android:id="@+id/loginButton"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password"
+        android:src="@drawable/loginbutton"
+        android:background="@null"
+        android:layout_width="220sp"
+        android:layout_height="50sp"
+        android:onClick="loginFunction"/>
+
+    <TextView
+
+        android:id="@+id/orText"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:text="@string/or"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80sp"
+        android:layout_height="50sp" />
+
+    <ImageButton
+
+        android:layout_marginTop="30sp"
+        android:id="@+id/fbButton"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/facebook"
+        android:layout_marginLeft="100sp"
+        android:layout_below="@id/orText"
+        android:background="@null"
+        android:layout_width="80sp"
+        android:layout_height="80sp" />
+
+
+    <ImageButton
+
+        android:id="@+id/googleButton"
+        android:layout_marginTop="30sp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/google"
+        android:layout_marginLeft="230sp"
+        android:layout_below="@id/orText"
+        android:background="@null"
+        android:layout_width="80sp"
+        android:layout_height="80sp" />
+
+    <TextView
+
+        android:id="@+id/facebookText"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="Facebook"
+        android:layout_marginLeft="104sp"
+        android:layout_marginTop="5sp"
+        android:layout_below="@id/fbButton"
+        android:layout_width="80sp"
+        android:layout_height="20sp" />
+
+    <TextView
+
+        android:id="@+id/googleText"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="Google+"
+        android:layout_marginLeft="234sp"
+        android:layout_marginTop="5sp"
+        android:layout_below="@id/fbButton"
+        android:layout_width="80sp"
+        android:layout_height="22sp" />
+
+
+
+
+</RelativeLayout>
